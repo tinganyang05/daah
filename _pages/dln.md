@@ -1,6 +1,6 @@
 ---
-title: "Schedule S26"
-permalink: /schedule-S26/
+title: "DLN"
+permalink: /dln/
 author_profile: false
 ---
 **Gemini:**
