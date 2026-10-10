@@ -62,22 +62,22 @@ We only looked at a few examples, so we can’t say much about the books themsel
 We made heatmaps for our two time ranges to see if the words used changed between the two periods. We also ran TF-IDF on the war and space travel tags for both periods, to see what the computer would pick out as distinctive instead of only the words we chose ourselves. But with only two tags to compare, it mainly gave us character names.
 
 
-![TF-IDF, 1930–1949, first round](/assets/images/1-tf-idf-1930-1949.png)
+![TF-IDF, 1930–1949, first round](/daah/assets/images/1-tf-idf-1930-1949.png)
 *Figure 3: The most distinctive words for the space travel and war tags in 1930–1949, according to TF-IDF. Almost all of them are character names rather than war vocabulary.*
 
 
-![TF-IDF, 1950–1969, first round](/assets/images/1-tf-idf-1950-1969.png)
+![TF-IDF, 1950–1969, first round](/daah/assets/images/1-tf-idf-1950-1969.png)
 *Figure 4: The most distinctive words for the space travel and war tags in 1950–1969, according to TF-IDF. Names like kirby, rennie and boyd take up the top spots for the war tag.*
 
 
 Because the results were mostly names, we added them as stopwords and ran the TF-IDF chunk again:
 
 
-![TF-IDF, 1930–1949, second round](/assets/images/2-tf-idf-1930-1949.png)
+![TF-IDF, 1930–1949, second round](/daah/assets/images/2-tf-idf-1930-1949.png)
 *Figure 5: The most distinctive words for 1930–1949 after removing the first round of names. New names replaced the old ones at the top.*
 
 
-![TF-IDF, 1950–1969, second round](/assets/images/2-tf-idf-1950-1969.png)
+![TF-IDF, 1950–1969, second round](/daah/assets/images/2-tf-idf-1950-1969.png)
 *Figure 6: The most distinctive words for 1950–1969 after removing the first round of names. Again, new names appeared, along with a few words like "yankees," which led us to check it in KWIC.*
 
 
